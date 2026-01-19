@@ -33,15 +33,7 @@ The monitor provides:
 
 ## Architecture
 
-RSS Feeds
-↓
-ingest.py
-↓
-geo_lookup.py (GeoNames)
-↓
-events.duckdb (DuckDB)
-↓
-app.py (Streamlit + Plotly)
+RSS Feeds > ingest.py > geo_lookup.py (GeoNames) > events.duckdb (DuckDB) > app.py (Streamlit + Plotly)
 
 ## Installation
 
