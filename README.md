@@ -43,33 +43,24 @@ events.duckdb (DuckDB)
 ↓
 app.py (Streamlit + Plotly)
 
-yaml
-Copiar código
-
----
-
 ## Installation
 
-Clone the repository and create a Python virtual environment:
+1. Clone the repository and create a Python virtual environment:
 
-```bash
 git clone https://github.com/yourname/situation-monitor.git
 cd situation-monitor
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
-Usage
-Run ingestion to populate or refresh the local database:
 
-bash
-Copiar código
-python ingest.py
-Launch the Streamlit dashboard:
 
-bash
-Copiar código
-streamlit run app.py
-Data Model
+## Usage
+1. Run ingestion to populate or refresh the local database:
+    python ingest.py
+2. Launch the Streamlit dashboard:
+    streamlit run app.py
+
+## Data Model
 Each event includes:
 
 Field	Description
@@ -87,30 +78,19 @@ geo_country	ISO country
 geo_lat / geo_lon	Coordinates
 tags	Situation classification
 
-Use Cases
-Cyber Threat Intelligence monitoring
+## Use Cases
+- Cyber Threat Intelligence monitoring
+- Geopolitical risk tracking
+- Brand protection and fraud awareness
+- OSINT research and correlation
+- Intelligence training and anomaly detection
 
-Geopolitical risk tracking
-
-Brand protection and fraud awareness
-
-OSINT research and correlation
-
-Intelligence training and anomaly detection
-
-Philosophy
+## Philosophy
 This monitor follows an intelligence-driven design:
-
-Structured ingestion
-
-Quantitative prioritization
-
-Visual situational encoding
-
-Low noise / high signal
-
-Analyst-centric UX
-
-MIT License
+- Structured ingestion
+- Quantitative prioritization
+- Visual situational encoding
+- Low noise / high signal
+- Analyst-centric UX
 
 Built for analysts who think in patterns, not in headlines.
