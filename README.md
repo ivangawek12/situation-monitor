@@ -41,11 +41,11 @@ RSS Feeds > ingest.py > geo_lookup.py (GeoNames) > events.duckdb (DuckDB) > app.
 
 1. Clone the repository and create a Python virtual environment:
 
-git clone https://github.com/yourname/situation-monitor.git
-cd situation-monitor
-python -m venv .venv
-.\.venv\Scripts\activate
-pip install -r requirements.txt
+- git clone https://github.com/yourname/situation-monitor.git
+- cd situation-monitor
+- python -m venv .venv
+- .\.venv\Scripts\activate
+- pip install -r requirements.txt
 
 ---
 
