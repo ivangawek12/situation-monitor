@@ -81,6 +81,14 @@ tags	Situation classification
 
 <img width="714" height="541" alt="image" src="https://github.com/user-attachments/assets/3b7eaa7d-3a20-4360-93e3-84ccbc70c8ab" />
 
+| Layer           | Purpose                                               |
+| --------------- | ----------------------------------------------------- |
+| `ingest.py`     | Collects feeds, enriches and scores events            |
+| `monitor/`      | Brain of the system (logic + detection + clustering)  |
+| `data/`         | Intelligence lookup sources (geo + tags + enrichment) |
+| `app.py`        | Visual Situation Monitor                              |
+| `events.duckdb` | Your operational datastore                            |
+
 ---
 
 ## Use Cases
