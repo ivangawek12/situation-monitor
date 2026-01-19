@@ -1,3 +1,6 @@
+
+![G-_xCjWW4AAV4r1](https://github.com/user-attachments/assets/bc85dd52-efc1-4015-b4ab-7965804b347b)
+
 # Ravnica Situation Monitor
 
 **Ravnica Situation Monitor** is a local-first Python platform that ingests and visualizes **geopolitical and cyber-threat intelligence events**, enriched with automated risk scoring and offline geolocation.
