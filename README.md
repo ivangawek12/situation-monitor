@@ -85,4 +85,4 @@ This monitor follows an intelligence-driven design:
 - Low noise / high signal
 - Analyst-centric UX
 
-Built for analysts who think in patterns, not in headlines.
+🕵️ Built for analysts who think in patterns, not in headlines.
