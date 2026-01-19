@@ -78,7 +78,8 @@ tags	Situation classification
 
 ---
 ## Project Structure
-situation_monitor/
+
+/situation_monitor/
 │
 ├── app.py                  # Main Streamlit dashboard (Situation Monitor UI)
 ├── ingest.py               # Entry point for RSS ingestion + scoring + geo tagging
@@ -100,6 +101,7 @@ situation_monitor/
 │   └── commands.txt        # Operational CLI commands / runbook
 │
 └── .venv/                  # Local Python virtual environment
+
 
 ---
 
