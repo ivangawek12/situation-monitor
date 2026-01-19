@@ -79,29 +79,7 @@ tags	Situation classification
 ---
 ## Project Structure
 
-/situation_monitor/
-│
-├── app.py                  # Main Streamlit dashboard (Situation Monitor UI)
-├── ingest.py               # Entry point for RSS ingestion + scoring + geo tagging
-├── events.duckdb           # Local DuckDB database (IOC + event storage)
-├── config.py               # Feed configuration + domain settings
-├── requirements.txt        # Python dependencies
-│
-├── monitor/                # Core logic: ingestion, DB ops, scoring, geolocation
-│   ├── db.py               # DuckDB connection + upsert/query helpers
-│   ├── ingest.py           # Feed normalization + enrichment pipeline
-│   ├── rss_ingest.py       # RSS fetch + parsing layer
-│   ├── geo_lookup.py       # Offline geolocation (GeoNames lookup index)
-│   ├── build_geo_index.py  # Utility to build local geo index from cities dataset
-│   ├── scoring.py          # Severity / Confidence / Priority logic
-│   └── schema.py           # Event table schema definition
-│
-├── data/                   # Static lookup data for geolocation + enrichment
-│   ├── geo_index.csv       # Pre-built global city + country lookup index
-│   └── commands.txt        # Operational CLI commands / runbook
-│
-└── .venv/                  # Local Python virtual environment
-
+<img width="714" height="541" alt="image" src="https://github.com/user-attachments/assets/3b7eaa7d-3a20-4360-93e3-84ccbc70c8ab" />
 
 ---
 
