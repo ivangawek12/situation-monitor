@@ -2,7 +2,7 @@
 
 **Situation Monitor** is a local-first Python platform that ingests and visualizes **geopolitical and cyber-threat intelligence events**, enriched with automated risk scoring and offline geolocation.
 
-It is designed for analysts and researchers who need operational visibility of global situations — without relying on cloud services or external APIs.
+It is designed for analysts and researchers who need operational visibility of global situations without relying on cloud services or external APIs.
 
 ---
 
