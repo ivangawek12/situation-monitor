@@ -35,6 +35,8 @@ The monitor provides:
 
 RSS Feeds > ingest.py > geo_lookup.py (GeoNames) > events.duckdb (DuckDB) > app.py (Streamlit + Plotly)
 
+---
+
 ## Installation
 
 1. Clone the repository and create a Python virtual environment:
@@ -45,16 +47,20 @@ python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
 
+---
 
 ## Usage
+
 1. Run ingestion to populate or refresh the local database:
     python ingest.py
 2. Launch the Streamlit dashboard:
     streamlit run app.py
 
-## Data Model
-Each event includes:
+---
 
+## Data Model
+
+Each event includes:
 Field	Description
 event_id	Unique event identifier
 ts	Timestamp
@@ -70,12 +76,16 @@ geo_country	ISO country
 geo_lat / geo_lon	Coordinates
 tags	Situation classification
 
+---
+
 ## Use Cases
 - Cyber Threat Intelligence monitoring
 - Geopolitical risk tracking
 - Brand protection and fraud awareness
 - OSINT research and correlation
 - Intelligence training and anomaly detection
+
+---
 
 ## Philosophy
 This monitor follows an intelligence-driven design:
