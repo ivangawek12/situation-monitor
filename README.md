@@ -47,7 +47,7 @@ RSS Feeds > ingest.py > geo_lookup.py (GeoNames) > events.duckdb (DuckDB) > app.
 - git clone https://github.com/yourname/situation-monitor.git
 - cd situation-monitor
 - python -m venv .venv
-- .\.venv\Scripts\activate
+- .venv\Scripts\activate
 - pip install -r requirements.txt
 
 ---
